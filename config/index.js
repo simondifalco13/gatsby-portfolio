@@ -33,7 +33,7 @@ module.exports = {
       //background: "#121212",
       background:"#3333ff",
       //card: "#1C1C1C",
-      card : "#8080ff",
+      card : "#3333ff",
       scrollBar: "rgba(255, 255, 255, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
