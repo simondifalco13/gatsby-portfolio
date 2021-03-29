@@ -1,10 +1,10 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@simondifalco",
+  siteTitle: "Simon Di falco Portfolio",
+  siteShortTitle: "My works", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "All the informations about my work and myself on one page",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -30,8 +30,10 @@ module.exports = {
       tertiary: "#252525",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
-      background: "#121212",
-      card: "#1C1C1C",
+      //background: "#121212",
+      background:"#3333ff",
+      //card: "#1C1C1C",
+      card : "#8080ff",
       scrollBar: "rgba(255, 255, 255, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
@@ -55,25 +57,21 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://be.linkedin.com/in/simon-di-falco-2b108519b",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Facebook",
+      url: "https://www.facebook.com/simon.difalco/",
     },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/simondifalco13",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Mail",
+      url: "mailto:simondifalco.d@gmail.com",
     },
-    // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
-    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -95,7 +93,7 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "simon.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
